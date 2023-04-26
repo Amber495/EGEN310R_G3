@@ -99,6 +99,13 @@ void loop() {
       case 'q':
         Speed = 255;
         break;
+      case 'W':
+        up();
+        break;
+      case 'w':
+        down();
+        break;
+        
     }
     
     Speedsec = Turnradius;
@@ -150,12 +157,12 @@ void backleft() {
 
 
 void up() {                  ////////////////
-  analogWrite(in7, Speed);   ////////////////
+  analogWrite(in5, Speed);   ////////////////
   
 }
 
 void down() {                 ////////////
-  analogWrite(in8, Speed);    ////////////
+  analogWrite(in6, Speed);    ////////////
   
 }
 
