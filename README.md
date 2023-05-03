@@ -24,4 +24,15 @@ A. We did a wiring
 diagram to keep track
 of everything correctly.
 
-Q. We
+Q. We didn't understand
+how to add in a servo
+to the driving motors.
+How can we get the 
+servos to work?
+
+A. We used a motor instead
+because it wasn't powerful
+enough. Also, we needed
+a motor controller.
+
+
